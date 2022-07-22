@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>meu site</title>
+    </head>
+    <body>
+        <h1>site Curso de Js Atividade 2 </h1>
+        <script>
+            var valor1 = 1*prompt('insira um numero')
+            var valor2 = 1*prompt('insira outro numero')
+            var valor3 = 1*prompt('insira outro numero')
+
+            var maior = 0
+            var menor = 0
+            
+            if(valor1 > valor2) {
+                if(valor1 > valor3){
+                    maior = valor1
+                }
+            }else if(valor2 > valor1) {
+                if(valor2 > valor3){
+                    maior = valor2
+                }
+            }else { 
+                maior = valor3
+            }
+            
+            if(!valor1 > valor2) {
+                if(!valor1 > valor3){
+                    menor = valor1
+                }
+            }else if(!valor2 > valor1) {
+                if(!valor2 > valor3){
+                    menor = valor2
+                }
+            }else { 
+                menor = valor3
+            }
+
+            alert(`o maior e o ${maior}  e o menor numero e ${menor}`)
+            
+
+        </script>
+    </body>
+</html>
